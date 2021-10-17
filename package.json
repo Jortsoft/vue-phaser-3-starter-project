@@ -1,0 +1,29 @@
+{
+  "name": "vue-phaser3",
+  "version": "3.0.0",
+  "description": "Phaser game",
+  "author": "Jortsoft <tornike.jortsoft@gmail.com>",
+  "scripts": {
+    "serve": "vue-cli-service serve",
+    "build": "vue-cli-service build --modern",
+    "start": "http-server dist --port=5000"
+  },
+  "dependencies": {
+    "core-js": "^3.17.3",
+    "phaser": "^3.55.2",
+    "vue": "^3.2.12"
+  },
+  "devDependencies": {
+    "@vue/cli-plugin-babel": "~4.5.0",
+    "@vue/cli-service": "~4.5.0",
+    "@vue/compiler-sfc": "^3.2.12",
+    "http-server": "^13.0.2",
+    "sass": "^1.41.1",
+    "sass-loader": "^8.0.2"
+  },
+  "keywords": [
+    "vue",
+    "phaser"
+  ],
+  "license": "JORTSOFT"
+}
